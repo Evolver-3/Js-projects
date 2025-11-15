@@ -35,40 +35,57 @@
 }
 
 .btn{
-
-padding:12px;
-font-size:1rem;
-border:none;
-border-radius:12px;
-background:#9cd2ff;
-color:#004a99;
-cursor:pointer;
-
-transition:0.2s ease;
-
+  text-transform:uppercase;
+  background: transparent;
+  color:black;
+  padding: 1rem 2rem;
+  letter-spacing:.2rem;
+  display:inline-block;
+  transition: all .3s;
+  font-size:0.08;
+  border:2px solid black;
+  cursor:pointer;
+  gap:0.5rem;
+  box-shadow:0 1px 3px ;
+  border-radius: 1rem;
+  position: absolute;
+  bottom:6%;
+  left:7%;
+  width:9rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  transition: all .3s;
 }
 .btn:hover{
-  background:#b8deff;
+  color:white;
+  background-color:transparent;
 }
-button:active{
-  transform:scale(0.96)
-}
-#playbtn{
-  padding:10px 20px;
-  font-size:18px;
-  border:3px solid #4aa3ff;
-  border-radius:12px;
-  background:#9cd2ff;
-  color:#004a99;
-  cursor:pointer;
-  transition:0.2s ease;
-  margin-right:10px;
 
+.btn span{
+  display: inline-block;
+  font-size:0.8rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  color:white;
 }
-.playbtn:hover{
-  background:#b8deff;
-}
-.pausebtn:active{
-  transform:scale(0.96);
+.switch{
+  position:absolute;
+  width:50% ;
+  height: 100%;
+  top:0;
+  left: 0;
+  background: white;
+  border-radius: 1rem;
+  margin: 0;
+  display: block;
+  transition: all .3s;
   
 }
+.slide .switch{
+  left:50%;
+  
+}
+
