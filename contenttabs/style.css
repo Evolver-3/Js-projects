@@ -1,0 +1,50 @@
+*{
+  border:0;
+  padding:0;
+}
+
+body{
+  box-sizing: border-box;
+  width:100vw;
+  height:100vh;
+  background:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+.outer{
+  display:flex;
+  flex-direction: row;
+  width:80vw;
+  height:40vh;
+  justify-content: space-evenly;
+  background:grey;
+
+
+}
+.head{
+  align-items:center;
+  display:flex;
+  flex-direction:column ;
+  width:60vw;
+  font-family: monospace;
+}
+.head h2{
+  font-size:2rem;
+  
+}
+
+.img-container img{
+  width:40vw;
+  height: 40vh;
+
+}
+
+.content{
+  background:rgb(63, 136, 63)
+}
+.btn button{
+  
+  
+}
