@@ -166,7 +166,9 @@ header{
   color:purple;
 }
 .section{
+
   height:90vh;
+
 }
 
 footer{
@@ -214,7 +216,8 @@ footer p{
   }
   
 }
-footer{
+footer p{
   background:black;
   min-height:20vh;
+  
 }
