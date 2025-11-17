@@ -9,39 +9,55 @@
 </head>
 <body>
   <header>
+
+    <div class="section">
     <div class="head">
       <h2>About</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, asperiores?</p>
     </div>
   </header>
 
-  <div class="outer">
+  <div class="outer ">
 
-    <div class="img-container">
-       <img src="wall1.jpg">
+    <div class="wallpaper">
+       <img src="wall1.jpg" width="200px">
     </div>
 
-    <div class="content">
-      <div class="btn">
-        <button class="history-btn">
+    <div class="data">
+      <div class="btn-container">
+        <button class="btn" data-id="history">
           History
-        </button>
+        </button> 
 
-        <button class="vision-btn">
+        <button class="btn" data-id="vision">
           Vision
         </button>
 
-        <button class="goals">
+        <button class="btn" data-id="goals">
           Goals
         </button>
 
       </div>
 
-      <div class="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quam corporis nobis fuga! Facilis in earum a obcaecati cumque, aliquam, suscipit est distinctio dolor ipsum, ullam esse odit tempora alias!
+      <div class="content text" id="history">
+        <h4>history</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse velit tempore saepe repudiandae nemo doloribus corporis vero temporibus deserunt exercitationem molestias facilis dolores illum tenetur, earum doloremque quidem pariatur voluptatem ex? Maxime illo inventore ullam reprehenderit cumque quas, unde iure! Atque laudantium tempora porro.
+        </p>
+     
       </div>
-    </div>
+      <div class="content text" id="vision">
+        <h4>vision</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa voluptatum repellat consectetur. Similique iusto vitae saepe? Iusto repellat consequatur maiores corporis cumque magnam!</p>
+      </div>
+
+      <div  class="content text" id="goals">
+        <h4>goals</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id vel dicta laborum, ullam minima sint consequatur rem explicabo, eveniet natus, alias vero nesciunt!</p>
+      </div>
+
     
+  </div>
   </div>
 
 <script src="app.js">
