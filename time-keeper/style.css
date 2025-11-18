@@ -137,3 +137,10 @@ img{
 .deadline div{
   padding:1rem;
 }
+.expired ~.details{
+  display: none;
+  
+  
+  
+
+}
